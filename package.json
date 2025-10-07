@@ -26,7 +26,10 @@
     "sass": "^1.54.5",
     "typescript": "^4.7.4"
   },
+  "homepage": "https://username.github.io/ReactPortfolioTemplate",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
